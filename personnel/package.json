@@ -1,0 +1,61 @@
+{
+  "name": "personnel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "axios": "^0.26.1",
+    "core-js": "^3.8.3",
+    "echarts": "^5.3.2",
+    "element-china-area-data": "^5.0.2",
+    "element-ui": "^2.15.6",
+    "lay-excel": "^1.7.6",
+    "scss": "^0.2.4",
+    "view-design": "^4.7.0",
+    "vue": "^2.6.14",
+    "vue-color-picker-sheldon": "^0.0.1",
+    "vue-custom-scrollbar": "^1.4.3",
+    "vue-puzzle-vcode": "^1.1.9",
+    "vue-router": "^3.5.3",
+    "vuedraggable": "^2.24.3",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "lib-flexible": "^0.3.2",
+    "postcss-px-to-viewport": "^1.1.1",
+    "postcss-pxtorem": "^5.1.1",
+    "sass-loader": "^12.6.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
